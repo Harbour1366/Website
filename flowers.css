@@ -1,0 +1,533 @@
+nav {
+    background-color: #cfa3b6;
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
+}
+
+nav a {
+    color: #f2f4f3;
+    font-family: "Courier New", Courier, monospace;
+    padding: 0px 70px;
+    text-decoration: none;
+    font-size: 300%;
+    float: left;
+}
+
+table {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 5%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+    font-size: 18px;
+}
+
+
+th {
+    background-color: #cfa3b6;
+    color: #f2f4f3;
+}
+
+td {
+    background-color: #f2f2f2;
+}
+
+
+.dropbutton {
+    background-color: #cfa3b6;
+    color: white;
+    padding: 16px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 37px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropcontent {
+    display: none;
+    position: absolute;
+    background-color: #f2f4f3;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.4);
+    z-index: 1;
+}
+
+.dropcontent a {
+    color: #0c120c;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: large;
+}
+
+.dropcontent a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropcontent {
+    display: block;
+}
+
+.dropdown:hover .dropbutton {
+    background-color: #e5be61;
+}
+
+.icon {
+    padding: 0px;
+    margin-left: 1%;
+    height: 270px;
+    width: 230px;
+}
+
+.logohead {
+    max-width: 20%;
+    margin: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: rgba(207, 163, 182, 0.8);
+}
+
+.logonav {
+    /* max-width: 20%; */
+    margin: 0%;
+    /* padding-top: 1%;
+      padding-bottom: 1%; */
+    padding-left: 1%;
+    float: left;
+    /* border: solid 1px #E5BE61; */
+    /* height: 270px; */
+}
+
+.navitem {
+    /* border: solid 1px #C7D6D5; */
+    height: 270px;
+    display: flex;
+    align-items: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/* .navplant {
+      background-color: #cfa3b6;
+      overflow: hidden;
+      padding: 2% 0%;
+  }
+  
+  .navflow {
+      background-color: #cfa3b6;
+      overflow: hidden;
+      padding: 2% 0%;
+  } */
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #cfa3b6;
+    overflow: hidden;
+    padding: 2% 0%;
+}
+
+.homecontainer {
+    display: flex;
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    /* Center vertically */
+}
+
+.homecontainer img {
+    max-width: 50%;
+    margin-left: 20px;
+    /* Adjust margin as needed */
+    margin-right: 20px;
+    /* Adjust margin as needed */
+}
+
+.text-container {
+    width: 50%;
+    text-align: center;
+}
+
+.hometext {
+    background-color: rgba(242, 244, 243, 0.85);
+    padding: 20px;
+}
+
+.colourquote {
+    color: #e5be61;
+}
+
+.location-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: rgba(242, 244, 243, 0.8);
+    padding: 20px;
+    /* Choose your desired background color */
+    /* Adjust margin as needed */
+}
+
+.map {
+    flex: 1;
+    margin-right: 20px;
+    /* Adjust margin as needed */
+}
+
+.address-details {
+    flex: 1;
+}
+
+.address-details h2 {
+    margin-top: 0;
+    /* Remove margin from the top of the h2 elements */
+}
+
+.address-details p {
+    margin-bottom: 5px;
+    /* Add some spacing between paragraphs */
+}
+
+.location-container .address-details p {
+    color: #5e6264;
+}
+
+
+.section {
+    position: sticky;
+    top: 0%;
+    z-index: 2;
+}
+
+/* .footerplant {
+      display: flex;
+      justify-content: center;
+      background-color: #cfa3b6;
+      overflow: hidden;
+      padding: 2% 0%;
+  }
+  
+  .footerflow {
+      display: flex;
+      justify-content: center;
+      background-color: #cfa3b6;
+      overflow: hidden;
+      padding: 2% 0%;
+  } */
+
+footer a {
+    padding: 0% 7%;
+    color: #f2f4f3;
+    font-family: "Courier New", Courier, monospace;
+    text-decoration: none;
+    font-size: 300%;
+}
+
+body {
+    background-color: #f2f4f3;
+    background-image: url(./imagesflowers/multituplips.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body2 {
+    background-color: #f2f4f3;
+    background-image: url(./imagesflowers/branchleaf.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body3 {
+    background-color: #f2f4f3;
+    background-image: url(./imagesflowers/roseback.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body4 {
+    background-color: #f2f4f3;
+    background-image: url(./imagesflowers/Logo/P632I4IBTPDSLeax7Wua--4--19zxu_7.8125x-real-esrgan-x4-plus.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: #e5be61;
+    text-align: center;
+    font-size: 500%;
+    margin-top: 0%;
+    background-color: rgba(242, 244, 243, 0.98);
+}
+
+.h1home {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: #e5be61;
+    text-align: center;
+    font-size: 500%;
+    margin-top: 2%;
+    background-color: rgba(242, 244, 243, 0.9);
+}
+
+h2 {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: #cfa3b6;
+    text-align: center;
+    font-size: 300%;
+}
+
+h3 {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: #0c120c;
+    margin: 0%;
+    margin-bottom: 2%;
+}
+
+p {
+    color: #0c120c;
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 36px;
+}
+
+.phead {
+    margin-top: 1%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.pback {
+    background-color: rgba(242, 244, 243, 0.8);
+    margin-right: 250px;
+    margin-left: 250px;
+    margin-bottom: 40px;
+    padding: 2%;
+}
+
+/* .pflow {
+      background-color: rgba(242, 244, 243, 0.8);
+      margin-right: 250px;
+      margin-left: 250px;
+  } */
+
+.pother {
+    background-color: rgba(242, 244, 243, 0.8);
+    margin-right: 250px;
+    margin-left: 250px;
+}
+
+.right {
+    float: right;
+}
+
+a {
+    color: #f2f4f3;
+    font-size: large;
+    opacity: 0.92;
+    text-align: center;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+}
+
+.logocontainer {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1px;
+}
+
+img {
+    max-width: 110%;
+    max-height: 110%;
+    align-items: auto;
+    /* margin: 5% 20%; */
+}
+
+.imghome {
+    max-width: 110%;
+    max-height: 110%;
+    align-items: auto;
+    margin: 1% 20%;
+}
+
+.text {
+    color: #f2f4f3;
+    font-family: "Courier New", Courier, monospace;
+    padding: 0px 70px;
+    text-decoration: none;
+    font-size: xx-large;
+    float: left;
+}
+
+.imgheader {
+    max-width: 110%;
+    max-height: 110%;
+
+    /* margin: 1% 20%; */
+}
+
+.imgconheader {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+}
+
+.imghead {
+    display: flex;
+    flex: 1 0 29%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.piccontainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.piccontainer img {
+    width: 50%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+.item {
+    display: flex;
+    flex: 1 0 29%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: solid #e5be61;
+    margin-bottom: 5%;
+    background-color: rgba(229, 190, 97, 0.6);
+}
+
+.item2 {
+    display: flex;
+    flex: 1 0 29%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: solid #e5be61;
+    margin-bottom: 5%;
+    background-color: rgba(229, 190, 97, 0.6);
+}
+
+.colours {
+    /* color: #F2F4F3;
+      color: #F7CACE;
+      color: #E6606B;
+      color: #778745;
+      color: #333333;
+  
+      color: #F2F4F3;
+      color: #cfa3b6;
+      color: #cfa3b6;
+      color: #E5BE61;
+      color: #cfa3b6;
+      color: #0C120C; */
+
+    color: #f2f4f3;
+    color: #e5be61;
+    color: #cfa3b6;
+    color: #c7d6d5;
+    color: #5e6264;
+    color: #0c120c;
+}
+
+.truculentafont {
+    font-family: "Truculenta", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+.aboretofont {
+    font-family: "Aboreto", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.firafont {
+    font-family: "Fira Sans Extra Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type="text"],
+select,
+textarea {
+    width: 100%;
+    /* Full width */
+    padding: 12px;
+    /* Some padding */
+    border: 1px solid #ccc;
+    /* Gray border */
+    border-radius: 4px;
+    /* Rounded borders */
+    box-sizing: border-box;
+    /* Make sure that padding and width stays in place */
+    margin-top: 6px;
+    /* Add a top margin */
+    margin-bottom: 16px;
+    /* Bottom margin */
+    resize: vertical;
+    /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type="submit"] {
+    background-color: #cfa3b6;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type="submit"]:hover {
+    background-color: #e5be61;
+}
+
+/* Add a background color and some padding around the form */
+.contactcontainer {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-bottom: 3%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
